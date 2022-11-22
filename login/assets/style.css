@@ -1,0 +1,57 @@
+@import url(fonts.css);
+@import url(colors.css);
+
+
+body {
+    background-color: var(--ig-light);
+    font-family: "Segoe UI";
+}
+
+.container {
+    max-width: 992px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer * {
+    color: var(--ig-secondary);
+    font-size: 13px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    margin: 0px 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 0px 10px;
+    position: relative;
+    list-style: none;
+}
+
+select {
+    border: none;
+    background-color: var(--ig-light);
+    cursor: pointer;
+}
